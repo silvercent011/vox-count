@@ -1,17 +1,18 @@
 {
   "name": "voting-apps",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "changelog": "npx changelogen@latest --output",
-    "changelog:patch": "npx changelogen@latest --patch"
+    "changelog:bump": "npx changelogen@latest --bump"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "changelogen": "^0.5.3",
     "cz-conventional-changelog": "^3.3.0"
   },
   "config": {
