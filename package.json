@@ -9,7 +9,6 @@
     "lint": "turbo run lint",
     "format": "turbo run format",
     "start": "turbo run start",
-    "prepare": "husky install",
     "changelog": "npx changelogen@latest --output",
     "changelog:bump": "npx changelogen@latest --bump"
   },
